@@ -22,12 +22,14 @@ TopspeedPower 是一个用C语言编写的快速幂运算库。它旨在提供�
    在最新的release中，找到"TdPr-dev.7z"之后，下载并解压就可以使用了。
 使用说明
 在你的C++项目中，你可以这样使用 TopspeedPower：
-**#include "TdPr-dev.hpp"**
-**int main() {**
-**    BigInt result = power(BigInt(n), fruit);**
-**    cout << result << endl;**
-**    return 0;**
-**}**
+
+#include "TdPr-dev.hpp"
+int main() {
+    BigInt result = power(BigInt(n), fruit);
+    cout << result << endl;
+    return 0;
+}
+
 确保在编译你的项目时链接 TopspeedPower 库。
 
 贡献
