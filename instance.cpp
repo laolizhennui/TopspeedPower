@@ -8,10 +8,10 @@ the Free Software Foundation, either version 3.0 of the License, or
 
 */
 
-#include "TdPr-dev.hpp"
+#include "TdPr-dev"
 
 int main(int argc, char *argv[]) {
     BigInt res = power(BigInt(2), 63);
-    cout << res << endl;
+    std::cout << res << std::endl;
     return 0;
 }
